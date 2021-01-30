@@ -1,0 +1,41 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.display-grid {
+    display: grid;
+}
+
+.content {
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    width: 100vw;
+}
+
+.videos {
+    border-right: 3px solid black;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.video {
+    width: 10rem;
+    height: 5rem;
+}
+
+.playlist {
+    text-align: center;
+    border: 10px solid green;
+    border-radius: 5px;
+    height: 10rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.playlists {
+    margin: 0 auto;
+    width: 75%;
+}
